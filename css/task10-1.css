@@ -1,0 +1,549 @@
+body {
+	font-size: 18px;
+	font-family: MicrosoftYaHei;
+	color: #666;
+}
+
+.header-part1 {
+	background-color: #1D7AD9;
+	color: #fff;
+	overflow: auto;
+}
+
+.header-part1 .container {
+	font-size: 14px;
+	line-height: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.btn1 {
+	float: right;
+	padding: 12px 36px 12px 36px;
+	font-size: 16px;
+	background-color: #1D7AD9;
+	color: #fff;
+	border-radius: 0;
+	line-height: 1;
+	border-width: 0 1px 0 1px;
+	border-style: solid;
+	border-color: #fff;
+}
+
+.btn2 {
+	float: right;
+	padding: 12px 12px 12px 12px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #1D7AD9;
+	border-radius: 0;
+	line-height: 1;
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	border-color: #fff;
+}
+
+.btn1:hover,
+.btn2:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+.header-part2 {
+	background-color: #f9f9f9;
+}
+
+.header-part2 .container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.header-part2-item .btn {
+	padding: 14px 17px;
+	font-size: 16px border-radius:5px;
+	background-color: #fff;
+	margin: 25px 0 25px 60px;
+}
+
+.header-part2 .container .btn:hover {
+	color: #fff;
+	background-color: #1D7AD9;
+}
+
+.maintable-topimg {
+	overflow: auto;
+	width: 100%;
+}
+
+.maintable-topimg img {
+	float: right;
+	margin-top: 43px;
+	margin-bottom: 37px;
+}
+
+.maintable-r1 {
+	font-size: 22px;
+	font-weight: 500;
+	color: #333;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.maintable-r2 {
+	background-color: #F4F4F4;
+	font-size: 18px;
+	font-weight: 500;
+	color: #1D7AD9;
+	height: 45px;
+	line-height: 45px;
+	border: 1px solid #e8e8e8;
+	width: 100%;
+}
+
+.maintable-r1 img {
+	padding: 15px 6px 17px 0;
+}
+
+.maintable-r2 img {
+	padding: 11px 10px 15px 10px;
+}
+
+label {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.maintable-r3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 25px;
+	padding-bottom: 24px;
+	border: 1px solid #e8e8e8;
+	overflow: auto;
+}
+
+.maintable-r3-form1 {
+	float: left;
+	font-size: 18px;
+	color: #666;
+	display: flex;
+	flex-direction: row;
+	margin-left: 40px;
+}
+
+.choice {
+	display: flex;
+	flex-direction: row;
+}
+
+.choice .radio {
+	margin-right: 60px;
+	position: relative;
+	display: inline-block;
+	padding-left: 35px;
+	cursor: pointer;
+}
+
+.choice .radio input {
+	position: absolute;
+	left: -9999px;
+}
+
+.choice .radio i {
+	display: block;
+	position: absolute;
+	top: 6px;
+	left: 0;
+	width: 16px;
+	height: 16px;
+	outline: 0;
+	border: 1px solid #D5D5D5;
+	border-radius: 50%;
+}
+
+.choice .radio input:checked+i {
+	border: 6px solid #1D7AD9;
+}
+
+.maintable-r5-form1 .choice {
+	display: flex;
+	flex-direction: column;
+	margin-left: 42px;
+	width: 140px;
+	float: left;
+}
+
+.maintable-r5 .maintable-r5-form2 {
+	float: left;
+	display: flex;
+	flex-direction: column;
+	margin-left: -60px;
+	margin-top: 29px;
+}
+
+.maintable-r5-form1 {
+	margin-top: 29px;
+	margig-bottom: 29px;
+	overflow: auto;
+	width: 204px;
+	float: left;
+}
+
+.r5-radio2 {
+	margin-top: 25px;
+}
+
+.r5-form2 {
+	margin-top: 52px;
+	margin-bottom: 52px;
+}
+
+.maintable-r3-form2 {
+	float: right;
+	font-size: 14px;
+	color: #999;
+	margin-right: 18px;
+}
+
+select {
+	/*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+	border: solid 1px #E8E8E8;
+	/*很关键：将默认的select选择框样式清除*/
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	/*在选择框的最右侧中间显示小箭头图片*/
+	background: url('../img/rectangle.png') no-repeat scroll 99px center;
+	/*为下拉小箭头留出一点位置，避免被文字覆盖*/
+	font-size: 14px;
+	color: #999;
+	padding: 7px 53px 7px 10px;
+	margin-top: px;
+}
+
+option {
+	color: #999;
+}
+
+.btn-secondary {
+	background-color: #fff;
+	border-color: #E8E8E8;
+	color: #999;
+}
+
+.form1-item-form1 {
+	display: flex;
+	flex-direction: row;
+}
+
+.form1-item-form1 div {
+	margin-left: 60px;
+	padding-left: 20px;
+	padding-right: 3px;
+	text-align: left;
+}
+
+.form1-1 {
+	padding-right: 8px;
+}
+
+.form1-2 {
+	padding-left: 3px;
+}
+
+.form1-item-form1 input,
+.form1-item-form2 input {
+	width: 70px;
+	height: 30px;
+	border: 1px solid #E8E8E8;
+}
+
+.form1-item2 {
+	margin-top: 24px;
+}
+
+.maintable-r7-form1 {
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+
+.maintable-r7-form2 {
+	margin-top: 53px;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 53px;
+}
+
+.maintable-r7 {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	border: 1px solid #e8e8e8;
+	overflow: auto;
+}
+
+.choice .r7-radio5 {
+	margin-right: 0;
+}
+
+.maintable-r8 {
+	width: 100%;
+	border: 1px solid #E8E8E8;
+	overflow: auto;
+	margin-bottom: 54px;
+}
+
+.maintable-r8 button {
+	display: block;
+	font-size: 24px;
+	color: #fff;
+	background-color: #e15053;
+	padding: 13px 55px;
+	margin: 140px auto 95px auto;
+}
+
+footer {
+	background-color: #f9f9f9;
+	font-size: 14px;
+	color: #999;
+}
+
+.footer1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.footer1-part1,
+.footer1-part2,
+.footer1-part3 {
+	flex-grow: 1;
+}
+
+.footer1-part1 {
+	margin-top: 69px;
+	text-align: left;
+	font-size: 16px;
+}
+
+.footer1-part2 {
+	margin-top: 69px;
+	text-align: left;
+}
+
+.footer1-part3 img {
+	margin-top: 57px;
+	margin-bottom: 57px;
+}
+
+.footer1-part3-text {
+	margin-top: 69px;
+	text-align: right;
+}
+
+.footer1-part2 a {
+	text-decration: none;
+	color: #999;
+}
+
+.footer1-part2 a:hover {
+	color: #1D7AD9;
+	text-decoration: none;
+}
+
+.footer1-part3-text {
+	float: right;
+	text-align: left;
+}
+
+.footer1-part3 img {
+	float: right;
+}
+
+.footer2 {
+	text-align: center;
+	background-color: #1D7AD9;
+	font-size: 14px;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid green;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+	.header-part1 .container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.btn1,
+	.btn2 {
+		border-width: 1px;
+	}
+	.header-part2 .container {
+		display: flex;
+		flex-direction: column;
+	}
+	.header-part2-item .btn {
+		margin: 5px 0 5px 0px;
+	}
+	.maintable-topimg img {
+		float: none;
+		width: 100%;
+		margin-top: 43px;
+		margin-bottom: 37px;
+	}
+	.choice {
+		flex-direction: column;
+	}
+	.maintable-r3 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.maintable-r3-form2 select {
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	.maintable-r3-form1 {
+		margin-left: 60px;
+	}
+	.maintable-r5 .maintable-r5-form2 {
+		float: left;
+		display: flex;
+		flex-direction: column;
+	}
+	.maintable-r5-form1 {
+		margin-left: 50px;
+	}
+	.maintable-r5 .maintable-r5-form2 {
+		margin-left: 10px;
+	}
+	.form1-item-form1 {
+		flex-direction: column;
+	}
+	.form1-item-form1 div {
+		margin-left: 10px;
+		padding-left: 10px;
+		padding-right: 3px;
+		text-align: left;
+	}
+	.form1-item2 {
+		margin-top: 30px;
+	}
+	.maintable-r3-form2 {
+		margin-top: 25px;
+	}
+	.footer1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer1-part3-item {
+		float: left;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+	.header-part2 .container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.header-part2-item .btn {
+		margin: 25px 0 25px 0px;
+	}
+	.maintable-topimg img {
+		float: none;
+		width: 100%;
+		margin-top: 43px;
+		margin-bottom: 37px;
+	}
+	.maintable-r3-form2 {
+		margin-top: 25px;
+	}
+	.choice {
+		flex-direction: column;
+	}
+	.maintable-r5 .maintable-r5-form2 {
+		float: left;
+		display: flex;
+		flex-direction: column;
+		margin-left: 10px;
+	}
+	.form1-item-form1 div {
+		margin-left: 10px;
+		padding-left: 10px;
+		padding-right: 3px;
+		text-align: left;
+	}
+	.footer1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer1-part3-item {
+		float: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.choice {
+		flex-direction: column;
+	}
+	.maintable-r3-form2 {
+		margin-top: 25px;
+	}
+	.footer1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer1-part3-item {
+		float: left;
+	}
+	.maintable-r5 .maintable-r5-form2 {
+		float: left;
+		display: flex;
+		flex-direction: column;
+		margin-left: -60px;
+	}
+	.form1-item-form1 div {
+		margin-left: 60px;
+		padding-left: 20px;
+		padding-right: 3px;
+		text-align: left;
+	}
+	.form1-1 {
+		padding-right: 8px;
+	}
+	.form1-2 {
+		padding-left: 3px;
+	}
+	.form1-item-form1 input,
+	.form1-item-form2 input {
+		width: 70px;
+		height: 30px;
+		margin-top: 2px;
+		border: 1px solid #E8E8E8;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.choice {
+		flex-direction: column;
+	}
+	.maintable-r3-form2 {
+		margin-top: 25px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1200px;
+	}
+}
